@@ -16,8 +16,7 @@
 
 ### Bash Scripts
 - Brace expansion allows to create multiple subdirectories
-  	* Create a `backups` directory with `freemem, diskuse, openlist, and freedisk` subdirectories
-	* `mkdir backups/{freemem,diskuse,openlist,freedisk}`
+  	* Create a `backups` directory with `freemem, diskuse, openlist, and freedisk` subdirectories: `mkdir backups/{freemem,diskuse,openlist,freedisk}`
 	* `System.sh` script (*can be found in the "scripts" directory of this repository*) shows unallocated memory, disk use, open files, and free disk space:
 	```
 	#!/usr/bin/env bash
