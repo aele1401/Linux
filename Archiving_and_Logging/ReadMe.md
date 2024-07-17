@@ -11,7 +11,7 @@
 		- `x` option is used to extract from an archive and *-c* option creates an archive`
 
 ### Creating, Managing, and Automating Cron Jobs
-- This cron job archives the authorization log containing user authentication information in the `auth.log` file under the `/var/log/` directory
+- This cron job archives the authorization log containing user authentication information in the `auth.log` file under the `/var/log/` directory:
   	* `cron job = 0 6 * * 3 tar czf ~/backups/auth/auth_backup.tgz /var/log/auth.log >> /dev/null 2>&1`
 
 ### Bash Scripts
