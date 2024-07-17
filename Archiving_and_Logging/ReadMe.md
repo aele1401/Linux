@@ -1,5 +1,5 @@
 # Archiving & Logging
-### Creating, Extracting, Compressing, Managing tar Backup Archives
+### Creating, Extracting, Compressing, and Managing tar Backup Archives
 - Tar commands and instructions:
 	* Extract tar file to current directory `tar -xvvf TarDocs.tar`
 	* Create the `Javaless_Doc.tar` archive from the `TarDocs/` directory, excluding the `TarDocs/Documents/Java` directory: `tar -cvvf ~/Projects/Javaless_Docs.tar --exclude="*Java" ~/Projects/TarDocs/Documents`
