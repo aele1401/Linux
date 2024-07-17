@@ -5,7 +5,7 @@
 	* Create the `Javaless_Doc.tar` archive from the `TarDocs/` directory, excluding the `TarDocs/Documents/Java` directory: `tar -cvvf ~/Projects/Javaless_Docs.tar --exclude="*Java" ~/Projects/TarDocs/Documents`
 	* Ensure `Java/` is not on the new `Javaless_Docs.tar` archive: `tar --list -f Javaless_Docs.tar | grep Java` OR `tar -tvf Javaless_Docs.tar | grep Java`
 ### Creating Incremental Archives
-- Creating an incremental archive called `logs_backup_tar.gz` with only changed files to `snapshot.file` for `/var/log` folder: `sudo tar cvvg var_log.snar -f logs_backup-2.tar.gz -z /var/log`
+- Create an incremental archive called `logs_backup_tar.gz` with only changed files to `snapshot.file` for `/var/log` folder: `sudo tar cvvg var_log.snar -f logs_backup-2.tar.gz -z /var/log`
 - Critical Analysis Question:
   	* Why wouldn't you use the options `-x` and `-c` at the same time with `tar`?
 		- `x` option is used to extract from an archive and *-c* option creates an archive`
