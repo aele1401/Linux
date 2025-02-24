@@ -22,7 +22,7 @@
 - Add an `Engineers` group to the system.
     * Command for adding group: `addgroup Engineers`
 - Add the previous list of users to the managed group. 
-    * Command for adding users: `sudo usermod -aG Engineers Sam, Joe, Amy, Sara
+    * Command for adding users: `sudo usermod -aG Engineers Sam, Joe, Amy, Sara`
 - Create a shared folders for the group at `/home/Engineers`.
     * Command: `sudo mkdir /home/Engineers`
 - Change ownership on the newly created shared folder to the `Engineers` group.
